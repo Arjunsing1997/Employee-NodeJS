@@ -1,1 +1,12 @@
-Console.log("Welcome to Employee Wage Problems using NodeJS");
+console.log("Welcome to Employee Wage Problems using NodeJS");
+const IS_ABSENT = 0;
+
+let empCheck = Math.floor(Math.random() * 10) % 2;
+if(empCheck == IS_ABSENT)
+{
+    console.log("Employee is Absent");
+}
+else
+{
+    console.log("Employee is Present");
+}
