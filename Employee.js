@@ -1,0 +1,1 @@
+Console.log("Welcome to Employee Wage Problems using NodeJS");
